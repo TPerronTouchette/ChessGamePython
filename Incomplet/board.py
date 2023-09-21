@@ -22,7 +22,6 @@ class Board:
     def __init__(self):
         self.board = [[Piece((i, j)) for j in range(8)] for i in range(8)]
 
-
         '''
         Board indexes for reference:
 
